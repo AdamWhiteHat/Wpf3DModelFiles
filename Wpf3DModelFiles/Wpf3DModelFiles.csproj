@@ -2,25 +2,25 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0-windows</TargetFramework>
-		<RootNamespace>ThreeDModelFiles</RootNamespace>
+		<RootNamespace>Wpf3DModelFiles</RootNamespace>
 		<ImplicitUsings>false</ImplicitUsings>
 		<Nullable>annotations</Nullable>
 		<UseWPF>true</UseWPF>
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<Title>ThreeDModelFiles</Title>
-		<Product>ThreeDModelFiles</Product>
-		<AssemblyName>ThreeDModelFiles</AssemblyName>
-		<AssemblyTitle>ThreeDModelFiles</AssemblyTitle>
-		<PackageId>ThreeDModelFiles</PackageId>
+		<Title>Wpf3DModelFiles</Title>
+		<Product>Wpf3DModelFiles</Product>
+		<AssemblyName>Wpf3DModelFiles</AssemblyName>
+		<AssemblyTitle>Wpf3DModelFiles</AssemblyTitle>
+		<PackageId>Wpf3DModelFiles</PackageId>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Authors>Adam White</Authors>
 		<Copyright>Adam White. MIT License. See License.</Copyright>
 		<Description>A simple library that parses 3MF and STL (both ASCII and Binary) 3D model files and outputs a MeshGeometry3D, GeometryModel3D, XAML markup code or a collection of Triangle3D.</Description>
 		<PackageTags>xaml wpf stl utility-library stl-files 3d-models 3mf 3d-mesh file-parsing geometry-3d 3d-mesh-models 3mf-files wpf-3d deserialization export WPF ASCII binary csharp</PackageTags>
-		<PackageProjectUrl>https://www.nuget.org/packages/3dModelFiles/</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/AdamWhiteHat/3dModelFiles</RepositoryUrl>
+		<PackageProjectUrl>https://www.nuget.org/packages/Wpf3DModelFiles/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/AdamWhiteHat/Wpf3DModelFiles</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>

@@ -13,9 +13,9 @@ using System.Windows.Media.Media3D;
 using System.Xml;
 using System.Xml.Linq;
 
-using static ThreeDModelFiles.STLFile;
+using static Wpf3DModelFiles.STLFile;
 
-namespace ThreeDModelFiles
+namespace Wpf3DModelFiles
 {
 
     public static partial class _3MFFile

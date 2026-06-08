@@ -7,7 +7,7 @@ using System.Windows.Media;
 using System.Windows.Media.Media3D;
 using System.Xml.Linq;
 
-namespace ThreeDModelFiles
+namespace Wpf3DModelFiles
 {
     public class CommonFileData
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Media.Media3D;
 
-namespace ThreeDModelFiles
+namespace Wpf3DModelFiles
 {
     public class Triangle3D
     {

@@ -3,9 +3,9 @@ using System.Linq;
 using System.Windows.Media;
 using System.Windows.Media.Media3D;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ThreeDModelFiles;
+using Wpf3DModelFiles;
 
-namespace Test3dModelFiles
+namespace TestWpf3DModelFiles
 {
     [TestClass]
     public sealed class TestStlBinary

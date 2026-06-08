@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Media3D;
 
-namespace ThreeDModelFiles
+namespace Wpf3DModelFiles
 {
     public partial class STLFile
     {

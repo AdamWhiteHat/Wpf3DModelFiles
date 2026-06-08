@@ -20,7 +20,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\3dModelFiles\3dModelFiles.csproj" />
+		<ProjectReference Include="..\Wpf3DModelFiles\Wpf3DModelFiles.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

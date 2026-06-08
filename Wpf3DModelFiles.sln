@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3dModelFiles", "3dModelFiles\3dModelFiles.csproj", "{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf3DModelFiles", "Wpf3DModelFiles\Wpf3DModelFiles.csproj", "{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test3dModelFiles", "Test3dModelFiles\Test3dModelFiles.csproj", "{257268C3-305B-466E-9939-E63B14C77FCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWpf3DModelFiles", "TestWpf3DModelFiles\TestWpf3DModelFiles.csproj", "{257268C3-305B-466E-9939-E63B14C77FCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

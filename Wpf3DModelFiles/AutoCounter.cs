@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ThreeDModelFiles
+namespace Wpf3DModelFiles
 {
     public class AutoCounter : IEnumerator
     {

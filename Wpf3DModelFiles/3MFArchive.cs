@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ThreeDModelFiles
+namespace Wpf3DModelFiles
 {
     public static class _3MFArchive
     {
