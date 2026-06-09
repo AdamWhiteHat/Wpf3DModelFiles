@@ -42,7 +42,7 @@ namespace Wpf3DModelFiles
                             Triangle3D triangle = Read.Triangle3D(binaryReader);
                             byte[] attribute = binaryReader.ReadBytes(2); // Not used
 
-                            results.FromTriangle3D(triangle);
+                            results.AddTriangle3D(triangle);
                         }
                     }
                 }

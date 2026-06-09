@@ -44,7 +44,7 @@ namespace Wpf3DModelFiles
                 while (facet != null)
                 {
                     Triangle3D triangle = Read.ParseFacet(facet);
-                    results.FromTriangle3D(triangle);
+                    results.AddTriangle3D(triangle);
 
                     facet = Read.ExtractFacet(ref stlFileContents);
                 }

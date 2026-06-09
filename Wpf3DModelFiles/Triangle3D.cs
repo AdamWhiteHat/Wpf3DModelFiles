@@ -15,6 +15,8 @@ namespace Wpf3DModelFiles
         public Vertex3D B { get; set; }
         public Vertex3D C { get; set; }
 
+        private static Triangle3DEqualityComparer _equalityComparer = new Triangle3DEqualityComparer();
+
         public Triangle3D(Vertex3D a, Vertex3D b, Vertex3D c)
         {
             Normal = default(Vector3D);
@@ -27,6 +29,16 @@ namespace Wpf3DModelFiles
             : this(a, b, c)
         {
             Normal = normal;
+        }
+
+        public override bool Equals(object? obj)
+        {
+            Triangle3D other = obj as Triangle3D;
+            if (other == null)
+            {
+                return false;
+            }
+            return _equalityComparer.Equals(this, other);
         }
     }
 }
